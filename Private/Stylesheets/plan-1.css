@@ -1,0 +1,41 @@
+#plan-1{
+width:293px;
+height:344px;
+border:1px solid #dedada;
+-webkit-box-shadow: 0px 5px 11px 0px rgba(234,234,234,0.75);
+-moz-box-shadow: 0px 5px 11px 0px rgba(234,234,234,0.75);
+box-shadow: 0px 5px 11px 0px rgba(234,234,234,0.75);
+float:left;
+margin-right:37.5px;margin-bottom: 26px;
+}
+#plan-1 .plan-name{padding-top: 22px;font-size:38px}
+#plan-1 .plan-name2{font-size: 24px;margin-top:-8px;}
+#plan-1 .plan-price2-1{font-family: 'Roboto', sans-serif;font-size:35px;color:#10c5c7;}
+#plan-1 .plan-description{font-size: 19px;margin-top:10px;}
+#plan-1 .plan-description-promo{font-size: 15px;}
+#plan-1 .plan-buy{
+cursor:pointer;
+line-height:42px;
+color:white;
+margin-top:10px;
+width:170px;
+height:42px;
+font-size:14px;
+background: rgba(41,201,204,1);
+background: -moz-linear-gradient(top, rgba(41,201,204,1) 0%, rgba(67,169,171,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(41,201,204,1)), color-stop(100%, rgba(67,169,171,1)));
+background: -webkit-linear-gradient(top, rgba(41,201,204,1) 0%, rgba(67,169,171,1) 100%);
+background: -o-linear-gradient(top, rgba(41,201,204,1) 0%, rgba(67,169,171,1) 100%);
+background: -ms-linear-gradient(top, rgba(41,201,204,1) 0%, rgba(67,169,171,1) 100%);
+background: linear-gradient(to bottom, rgba(41,201,204,1) 0%, rgba(67,169,171,1) 100%);
+border:1px solid #dedada;
+}
+#plan-1 .plan-buy:hover{
+background: rgba(41,201,204,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(41,201,204,1) 0%, rgba(67,169,171,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(41,201,204,1)), color-stop(100%, rgba(67,169,171,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(41,201,204,1) 0%, rgba(67,169,171,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(41,201,204,1) 0%, rgba(67,169,171,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(41,201,204,1) 0%, rgba(67,169,171,1) 100%);
+background: radial-gradient(ellipse at center, rgba(41,201,204,1) 0%, rgba(67,169,171,1) 100%);
+}
